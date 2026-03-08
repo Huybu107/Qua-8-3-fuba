@@ -44,7 +44,7 @@ function openMusicModal() {
 // =============================
 function openLetterModal() {
   const lines = [
-    '8/3 chúc Fuba có 1 ngày vui vẻ và đăng nhiều ảnh răm 💌',
+    '8/3 chúc Tuli có 1 ngày vui vẻ và thật hạnh phúc nha 💌',
   ];
 
   const html = `
@@ -119,7 +119,7 @@ function openGiftModal() {
 
 function openGift() {
   
-  const surprise = 'Chúc fuba luôn mãi xinh đẹp và hạnh phúc! 🌸✨💕';
+  const surprise = 'Chúc tuli luôn mãi xinh đẹp và hạnh phúc! 🌸✨💕';
 
   document.getElementById('giftBox').innerHTML = `
     <div class="gift-open">
@@ -146,4 +146,5 @@ function closeModal(event) {
 
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModalBtn();
+
 });
